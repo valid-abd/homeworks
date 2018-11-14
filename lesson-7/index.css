@@ -30,7 +30,7 @@ body {
 }
 
 .header-text__title {
-	font-family: 48px;
+	font-size: 48px;
 	font-weight: 700;
 	margin-bottom: 15px;
 
@@ -43,16 +43,16 @@ body {
 
 }
 
-.header-text__deser {
+.header-text__descr {
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 27;
-	min-width: 538px;
+	line-height: 27px;
+	max-width: 538px;
 	margin-bottom: 47px;
 
 }
 
-.header-text__prace {
+.header-text__price {
 	font-size: 48px;
 	font-weight: 400;
 	margin-bottom: 53px;
