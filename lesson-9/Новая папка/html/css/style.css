@@ -42,7 +42,7 @@ img {
 
 	margin-bottom: 53px;
 	color: #313131;
-	font-size: : 48px;
+	font-size: 48px;
 	font-weight: 400;
 }
 
@@ -88,7 +88,7 @@ img {
 }
 
 .features__text {
-
+	margin-bottom: 30px;
 	font-size: 18px;
 	font-weight: 400;
 }
