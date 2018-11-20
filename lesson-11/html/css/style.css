@@ -1,0 +1,67 @@
+
+*{
+	border: 2px solid #f05a22;
+}
+h3, p{
+	display: flex;
+    justify-content: center;
+
+}
+.container{
+	width: 70%;
+}
+.block{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h3{
+	color: #000000;
+	font-family: "Proxima Nova";
+	font-size: 18px;
+	font-weight: 700;
+}
+.button{
+	background-color: transparent;
+	border: 1px solid #23bac1;
+	color: #23bac1;
+	color: #23bac1;
+	font-family: "Proxima Nova";
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 23px 75px;
+}
+
+h2{
+	display: flex;
+    justify-content: center;
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 36px;
+    font-weight: 400;
+}
+.section{
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+    height: 723px;
+    background-color: #f9f9f9;
+}
+
+.container{
+	display: flex;
+	justify-content: space-evenly;
+
+	
+}
+
+
+.section-title{
+	
+	color: #000000;
+	font-family: "Proxima Nova";
+	
+}
