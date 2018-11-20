@@ -2,23 +2,23 @@
 
 
 h3, p{
-    display: flex;
+    display:flex;
     justify-content: center;
 
 }
 .container{
-	width: 100%;
+	width:100%;
 }
 .block{
-	display: flex;
-    justify-content: center;
-    flex-direction: column;
+	display:flex;
+    justify-content:center;
+    flex-direction:column;
 }
 h3{
-	color: #000000;
+	color:#000000;
 	font-family: "Proxima Nova";
-	font-size: 18px;
-	font-weight: 700;
+	font-size:18px;
+	font-weight:700;
 }
 .button{
 	background-color: transparent;
@@ -26,8 +26,8 @@ h3{
 	color: #23bac1;
 	color: #23bac1;
 	font-family: "Proxima Nova";
-	font-size: 13px;
-	font-weight: 700;
+	font-size:13px;
+	font-weight:700;
 	text-transform: uppercase;
 	padding: 23px 75px;
 }
