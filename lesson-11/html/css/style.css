@@ -2,12 +2,12 @@
 
 
 h3, p{
-	display: flex;
+    display: flex;
     justify-content: center;
 
 }
 .container{
-	width: 70%;
+	width: 100%;
 }
 .block{
 	display: flex;
