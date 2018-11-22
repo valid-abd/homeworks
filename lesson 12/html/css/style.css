@@ -1,0 +1,198 @@
+*{
+	/*border: 1px solid #c1c4c7;*/
+	font-family: "Open Sans";
+}
+
+
+
+.features{
+	 width: 1920px;
+    height: 680px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*заголовок*/
+.features-header{ 
+	
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: #3a3a3a;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/*подзаголовок*/
+.features-subtitle{
+	width: 546px;
+	height: 23px;
+	color: #3f3f3f;
+	font-family: "Open Sans";
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 27px;
+}
+
+/*контейнер*/
+.container{ 
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+
+/*услуги */
+.container-block{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 315px;
+    height: 520px;
+    background-color: #ffffff;
+}
+
+/*рамка услуги*/
+.rectangle{
+	display: flex;
+	justify-content: center;
+	width: 311px;
+	height: 61px;
+	background-color: #25333c;
+}
+
+/*Наименование услуги*/
+.rectangle-text{
+
+	
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+/*описание услуги */
+
+h3{
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: #3a3a3a;
+	font-family: "Open Sans - Semibold";
+	
+	
+	text-transform: uppercase;
+
+	line-height: 23px;
+
+
+}
+
+/*цвет цены*/
+.colortext{
+	/*width: 70%;*/
+	color: #e93b3b;
+	font-size: 28px;
+	line-height: 30px;
+}
+
+/*форма*/
+
+.form{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 281px;
+    height: 166px;
+
+}
+
+
+/*кнопка отправить заявку*/
+
+.button{
+	border-right: 10px;
+	width: 207px;
+    height: 54px;
+	background-color: #e93b3b;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 51px;
+	text-transform: uppercase;
+
+
+
+} 
+
+/*меджер */
+
+.container-text{
+
+	color: #616467;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 16px;
+
+
+}
+
+
+
+
+/*форма ввода данных*/
+
+.form{
+ width: 281px;
+}
+
+/*имя*/
+.form-name, .form-phone, .form-email{
+	border: 1px solid #c1c4c7;
+    background-color: #ffffff;
+	color: #616467;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 51px;
+}
+
+/*/*/*/*телефон*/
+.form-phone{
+	
+	color: #616467;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 51px;
+}
+
+
+/*почта*/
+.form-email{
+	
+	color: #616467;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 51px;
+
+}*/*/*/
