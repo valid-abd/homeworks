@@ -54,7 +54,7 @@ h3{
 
 /*контейнер*/
 .card-wrapper{ 
-	width: 55%;
+	width: 75%;
 	display: flex;
 	justify-content: space-around;
 
