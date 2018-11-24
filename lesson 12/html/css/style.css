@@ -1,23 +1,34 @@
 *{
 	/*border: 1px solid #c1c4c7;*/
 	font-family: "Open Sans";
+	
 }
 
 
-
+/*++*/
 .features{
-	 width: 1920px;
+	 /*width: 1920px;*/
     height: 680px;
     background-color: #f3f3f3;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+/*+++*/
+.card-descript{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-
-/*заголовок*/
+h3{
+	margin: 0px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*заголовок+*/
 .features-header{ 
 	
 	display: flex;
@@ -27,12 +38,11 @@
     color: #3a3a3a;
     font-family: "Open Sans";
     font-size: 30px;
-    font-weight: 400;
-    line-height: 23px;
+   
 }
 
 /*подзаголовок*/
-.features-subtitle{
+.features-description{
 	width: 546px;
 	height: 23px;
 	color: #3f3f3f;
@@ -43,16 +53,20 @@
 }
 
 /*контейнер*/
-.container{ 
-	width: 70%;
+.card-wrapper{ 
+	width: 55%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 
 }
 
+.card-form__button{
+	display: flex;
+    justify-content: center;
+}
 
 /*услуги */
-.container-block{
+.card__item{
 	display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +77,7 @@
 }
 
 /*рамка услуги*/
-.rectangle{
+.card-title{
 	display: flex;
 	justify-content: center;
 	width: 311px;
@@ -72,7 +86,7 @@
 }
 
 /*Наименование услуги*/
-.rectangle-text{
+p{
 
 	
 	display: flex;
@@ -87,12 +101,13 @@
 
 /*описание услуги */
 
-h3{
-
-	display: flex;
+.cad-descript__price{
+  	margin-top: 0px;
+    margin-bottom: 0px;
+	/*display: flex;
 	justify-content: center;
 	flex-direction: column;
-	align-items: center;
+	align-items: center;*/
 	color: #3a3a3a;
 	font-family: "Open Sans - Semibold";
 	
@@ -100,10 +115,11 @@ h3{
 	text-transform: uppercase;
 
 	line-height: 23px;
-
-
 }
-
+.card-formbutton{
+	display: flex;
+    justify-content: center;
+}
 /*цвет цены*/
 .colortext{
 	/*width: 70%;*/
@@ -114,20 +130,28 @@ h3{
 
 /*форма*/
 
-.form{
+.card-form{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 284px;
+    height: 240px;
+}
+
+.card-form__input{
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 281px;
-    height: 166px;
+    height: 175px;
 
 }
 
-
 /*кнопка отправить заявку*/
 
-.button{
-	border-right: 10px;
+button{
+	border-radius: 5px;
+	border: 0px;
 	width: 207px;
     height: 54px;
 	background-color: #e93b3b;
@@ -144,15 +168,13 @@ h3{
 
 /*меджер */
 
-.container-text{
+.card-text{
 
 	color: #616467;
 	font-family: "Open Sans";
 	font-size: 13px;
 	font-weight: 300;
 	line-height: 16px;
-
-
 }
 
 
@@ -165,7 +187,8 @@ h3{
 }
 
 /*имя*/
-.form-name, .form-phone, .form-email{
+input{
+	/*padding-left: 10px;*/
 	border: 1px solid #c1c4c7;
     background-color: #ffffff;
 	color: #616467;
@@ -173,26 +196,7 @@ h3{
 	font-size: 13px;
 	font-weight: 300;
 	line-height: 51px;
+	width: 281px;
+    height: 51px;
 }
 
-/*/*/*/*телефон*/
-.form-phone{
-	
-	color: #616467;
-	font-family: "Open Sans";
-	font-size: 13px;
-	font-weight: 300;
-	line-height: 51px;
-}
-
-
-/*почта*/
-.form-email{
-	
-	color: #616467;
-	font-family: "Open Sans";
-	font-size: 13px;
-	font-weight: 300;
-	line-height: 51px;
-
-}*/*/*/
