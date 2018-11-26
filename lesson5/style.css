@@ -1,0 +1,34 @@
+body{
+ 
+   font-family:"Tahoma", sans-serif;
+    background-color: #eeeae7;
+}
+
+
+    
+
+h1{
+    color: #262523;
+    padding: 50px;
+    text-align:center;
+    font-size: 50px;
+    border-bottom: 2px solid lightgray;
+    
+}
+li{
+    font-size:20px;
+    font-weight: bold;
+    text-decoration:underline;
+    
+}
+p{
+    font-family:"Arial", sans-serif ;
+    padding: 10%s;
+   white-space:pre;
+   
+}
+
+.block{
+    text-align:left;
+   
+}
