@@ -1,0 +1,30 @@
+h1 {
+	text-align: center;
+}
+
+.span {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #fd58b2;
+}
+
+.box {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.card {
+	display: inline-block;
+	width: 300px;
+}
+
+.card p {
+	margin-left: 45px;
+	margin-right: 45px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+}
