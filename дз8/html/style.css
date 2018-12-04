@@ -1,0 +1,28 @@
+/**{
+	border: 1px solid #c1c4c7;
+}*/
+
+p{
+	
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 32px;
+}
+
+h1{
+    
+	text-align: center;
+	margin-bottom: 81px;
+	line-height: 70px;
+
+}
+
+img{
+	height: 50px;
+}
+
+.row{
+	text-align: center; 
+}
