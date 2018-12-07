@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid #f05a22; */
+}
+
+
+.grid{
+   display: grid;
+   width: 1600px;
+   height: 1535px;
+   background-color: #212227;
+  
+   grid-template-areas: 
+   
+     "block-upPHOTO1 block-upPHOTO1 block-up2 block-up2"
+     "block-PHOTO3 block-PHOTO4 block-PHOTO5 block-PHOTO6"
+     "block-bottom7 block-bottom7 block-bottomPHOTO8 block-bottom9" ;                   
+
+    
+}
+.block-upPHOTO1{
+    grid-area: block-upPHOTO1;
+    height: 500px; 
+   
+}
+
+
+
+.block-up2{    /* второй блок с описанием */
+    
+    background-color: #f3f1ef;
+    grid-area: block-up2;
+}
+.up2__descn{
+    margin: 130px 0px 0px 55px;
+}
+.up2__descn-header{
+   
+    height: 40px;
+    color: #666666;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.up2__descn-text{
+    width: 412px;
+    
+    color: #666666;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+   
+    margin: 33px 0px 0px 0px;
+    letter-spacing: -0.6px;
+}
+
+.block-PHOTO3{
+grid-area: block-PHOTO3;
+}
+
+.block-PHOTO4{
+    grid-area: block-PHOTO4;
+}
+
+.block-PHOTO5{
+    grid-area: block-PHOTO5;
+}
+
+.block-PHOTO6{
+    grid-area: block-PHOTO6;
+}
+
+
+
+.block-bottom7{   /* 7 блок с соц сетью  и кнопкой */
+    grid-area: block-bottom7;
+
+    background-color: #3f729b;
+}
+
+.bottom7__descn{
+    margin: 144px 0px 0px 209px;
+}
+
+.bottom7__descn-header{
+   
+color: #f9f9f9;
+font-family: "Fira Sans";
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.bottom7__descn-button{
+    width: 280px;
+    height: 56px;
+    border-radius: 28px;
+    border: 2px solid #ffffff;
+    background-color: #3f729b;
+}
+
+.bottom7__descn-text{
+    width: 290px;
+    margin: 33px 0px 68px 0px;
+    color: #f9f9f9;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+.button__text{
+    color: #f9f9f9;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.block-bottomPHOTO8{
+    grid-area: block-bottomPHOTO8;
+}
+
+.block-bottom9{
+    grid-area: block-bottom9;
+    background-color: #3f729b;
+}
