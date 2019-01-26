@@ -1,0 +1,35 @@
+.header
+	background-image: url('../img/fon.jpg')
+	min-height: 710px
+	&-container
+		height: 55px
+		box-shadow: 0 21px 21px rgba(0, 0, 0, 0.28)
+		background-color: #ffffff
+		opacity: 0.9
+	&-wrap
+		height: 55px
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&-button
+		display: none
+	&-menu
+		&__list
+			display: flex
+			width: 794px
+			justify-content: space-between
+		& li
+			font-size: 14px
+			text-decoration: underline
+	&-numbers
+		&__list
+			text-align: right
+			&-phone
+				font-size: 17px
+				color: #1f1f1f
+				+bold
+			&-text
+				color: $text-button-color
+				font-size: 14px
+	
+		
